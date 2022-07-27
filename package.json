@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Proyecto Gimnasio Ronnie Coleman Aplicaciones Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=app:*&& nodemon index",
+    "start": "NODE_ENV=production node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Lemus195/Proyecto_gimnasio_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Lemus195/Proyecto_gimnasio_backend/issues"
+  },
+  "homepage": "https://github.com/Carlos-Lemus195/Proyecto_gimnasio_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "nodemailer": "^6.7.4",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
+  }
+}
